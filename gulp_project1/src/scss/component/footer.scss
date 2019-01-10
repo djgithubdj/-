@@ -1,4 +1,169 @@
-*{padding: 0;
-margin: 0;}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    float: left;
+}
+a{
+    color: #4f4f4f;
+    text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*尾部*/
+#footer{
+    width: 95%;
+    margin: 25px auto 0px auto;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+    border-top: 7px solid #de5251;
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+.center{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#footer div.center>img {
+    margin: 20px 0;
+}
+
+#footer ul {
+    height: 31px;
+    width: 400px;
+    font-size: 12px;
+    line-height: 31px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.clear {
+    display: block;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    clear: both;
+    font-size: 0;
+}
+
+#footer ul li {
+    display: inline;
+}
+
+#footer ul li a {
+    margin: 0 6px;
+}
+
+#footer p {
+    line-height: 31px;
+    text-align: center;
+    color: #535353;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
 
 
+#FloatBar {
+    width: 37px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-color: #444851;
+    z-index: 55500;
+}
+
+
+#FloatBar ul {
+  padding-top: 237px;
+  width: 37px;
+}
+
+#FloatBar ul li {
+  width: 37px;
+  
+  background-color: #30343d;
+}
+
+//#FloatBar ul li span {
+//  width: 34px;
+//  height: 36px;
+//  position: relative;
+//  background: url() no-repeat left top;
+//  display: block;
+//  z-index: 1500;
+//}
+//
+//#FloatBar ul li#btn_backtop span {
+//  background-position: left top;
+//}
+//
+//#FloatBar ul li#btn_hd span {
+//  line-height: 36px;
+//  background-position: 0px -37px;
+//}
+//
+//#FloatBar ul li#btn_cart {
+//  height: 139px;
+//  background-color: #31353e;
+//}
+//
+//#FloatBar ul li#btn_cart span {
+//  height: 30px;
+//  background-position: 0px -179px;
+//}
+//
+//#FloatBar ul li#btn_cart strong {
+//  padding: 7px 12px;
+//  width: 16px;
+//  font-size: 14px;
+//  font-weight: normal;
+//  color: #fff;
+//  display: block;
+//}
+//
+//#FloatBar ul li#btn_cart ins {
+//  width: 20px;
+//  height: 20px;
+//  line-height: 20px;
+//  text-align: center;
+//  font-size: 14px;
+//  color: #fff;
+//  margin: 0 auto;
+//  background-color: #d02631;
+//  text-decoration: none;
+//  border-radius: 10px;
+//  display: block;
+//}
+//
+//#FloatBar ul li#btn_sc span {
+//  background-position: 0px -74px;
+//}
+//
+//#FloatBar ul li em {
+//  width: 90px;
+//  height: 36px;
+//  line-height: 36px;
+//  text-align: center;
+//  position: absolute;
+//  color: #fff;
+//  top: 0px;
+//  right: -96px;
+//  background-color: #ef285f;
+//}

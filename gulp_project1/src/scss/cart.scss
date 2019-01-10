@@ -1,0 +1,85 @@
+@import "./component/header.scss";
+@import "./component/footer.scss";
+
+a{
+    text-decoration: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+#step {
+    width: 1198px;
+    height: 31px;
+    line-height: 31px;
+    overflow: hidden;
+    margin: 50px auto 15px auto;
+    border-radius: 10px;
+}
+
+#step ol {
+    float: left;
+    width: 100%;
+    background: url(../static/images/stepbg.jpg) no-repeat left top;
+    list-style-type: none;
+}
+
+#step ol li.change {
+    color: #fff;
+}
+
+#step ol li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-size: 14px;
+}
+/*step结束*/
+
+#nothing {
+    width: 460px;
+    margin: 0 auto;
+    height: 145px;
+    padding-top: 98px;
+    padding-bottom: 98px;
+    box-sizing: content-box;
+}
+
+#nothing .icon_cart {
+    width: 185px;
+    height: 145px;
+    float: left;
+    margin-right: 25px;
+}
+
+#nothing p {
+    font-size: 17px;
+    line-height: 25px;
+    padding-top: 29px;
+}
+
+#nothing p strong {
+    display: block;
+    font-weight: normal;
+}
+
+#nothing p a.btn {
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+    background-color: #dc5551;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    margin-top: 4px;
+    border-radius: 0;
+    padding: 0;
+}

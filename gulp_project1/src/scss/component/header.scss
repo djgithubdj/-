@@ -136,6 +136,7 @@ a{
 	height: 90px;
 	width: 95%;
 	margin: 0 auto;
+	min-width: 1200px;
 	
 }
 
@@ -145,6 +146,8 @@ a{
     width: 95%;
     margin: 0 auto;
     background-color: #ffffff; 
+    min-width: 1200px;
+    
 }
 
 #logo{
@@ -230,7 +233,7 @@ a{
 	height: 40px;
     width: 95%;
     margin: 0 auto;
-    
+    min-width: 1200px;
     position: relative;
     background-color: #ffffff;
     border-bottom: 2px solid #e4004f;
@@ -300,6 +303,7 @@ a{
 #submenu .menutitle .nav li {
     padding: 10px 0 9px 45px;
     position: relative;
+    background: #CCC;
 }
 
 #submenu .menutitle .nav li:nth-child(4) a{

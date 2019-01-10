@@ -1,4 +1,158 @@
 @import "./component/header.scss";
+@import "./component/footer.scss";
 
-*{padding: 0;
-  margin: 0;}
+*{
+    padding: 0;
+    margin: 0;
+}
+   
+ul{
+    list-style: none;
+}
+ul li{
+    float: left;
+}
+a{
+    color: #4f4f4f;
+    text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+ 
+#lbt{
+    height: 438px;
+}
+.container {
+    position: relative;
+    width: 1204px;
+    height: 438px; 
+    margin: 0 auto;
+}
+/*使用绝对定位，使全部图片叠加到一块*/
+.box, .box img {
+    position: absolute;
+    width: 1200px;
+    height: 438px;
+    display: inline-block;
+}
+/*下面小圆点，使用绝对定位，位于图片的正下方*/
+.circle {
+    width: 200px;
+    height: 14px;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -100px;
+    text-align: center;
+    cursor: pointer;
+}
+/*每个小圆点的样式*/
+.circle b {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 3px;
+}
+/*小圆点的当前样式，也是鼠标移上去的样式*/
+.circle .current {
+    background-color: red;
+}
+
+
+/*main*/
+.column {
+    overflow: hidden;
+    width: 1200px;
+    position: relative;
+    margin: 0px auto 10px auto;
+    padding-bottom: 15px;
+    background: #fff;
+}
+
+.PartTitle {
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 50px;
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #e4004f;
+}
+
+.PartTitle img {
+    position: absolute;
+    top: 7px;
+    left: 9px;
+    width: 25px;
+    height: 25px;
+}
+
+.column .fenlei {
+    width: 316px;
+    height: 367px;
+    float: left;
+    overflow: hidden;
+    margin-left: 20px;
+    background: #333;
+}
+
+.column .fenlei img{
+    width: 316px;
+    height: 367px;
+}
+
+
+.ProductList {
+    float: left;
+    background-color: #ffffff;
+}
+
+.ProductList li {
+    float: left;
+    width: 248px;
+    height: 347px;
+    text-align: center;
+    padding: 20px 20px 0;
+    box-sizing: content-box;
+}
+
+.ProductList li .photo {
+    display: block;
+}
+
+.ProductList li .photo img {
+    width: 180px;
+    height: 180px;
+    margin: 50px auto 10px auto;
+    display: block;
+}
+
+.ProductList li .photo strong {
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    font-size: 18px;
+    display: block;
+}
+
+.ProductList li .photo span {
+    height: 19px;
+    line-height: 19px;
+    overflow: hidden;
+    display: block;
+}
+
+.ProductList li .photo em {
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    font-size: 18px;
+    color: #e70050;
+    display: block;
+}

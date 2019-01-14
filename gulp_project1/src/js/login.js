@@ -19,7 +19,7 @@ require(['./requirejs.config'], () => {
 
 //登录
 var flag = false;
-			var input = $("input");
+			var input = $("");
 			var str;
 			$("#change").onclick = function(){
 				var arr = ['0','1','3','4','5','6','7','8','9','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
@@ -29,10 +29,10 @@ var flag = false;
 					var num = Math.floor(Math.random()*arr.length);
 					str += arr[num];
 				}
-				var aCo = $("#co");
+				var aCo = $("");
 				aCo.value = str;
 			}
-			$("#btn").onclick = function(){
+			$("").onclick = function(){
 				var user = input[0].value;
 				var reg = /^[0-9 a-zA-Z_]{4,20}$/;
 				if(reg.test(user) === false){
@@ -50,7 +50,7 @@ var flag = false;
 				}else{
 					flag = true;
 				}
-				var yan = $("#code");
+				var yan = $("#");
 				if(yan.value.toLowerCase() == str.toLowerCase()){
 					flag = true;
 				}else{
@@ -63,7 +63,7 @@ var flag = false;
 					alert("登录失败");
 				}
 			}
-		$("#form-login").onsubmit = function(event){
+		$("").onsubmit = function(event){
 			event.preventDefault();
 			var _username = $("#user").value,
 				_password = $("#psw").value;

@@ -3,7 +3,53 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link rel="stylesheet" href="/css/list.css"/>
+		<script src="/libs/require/require.js" data-main ="/js/list"></script>
 	</head>
 	<body>
+		
+		<header></header>
+		
+		<div id="Filter">
+			<dl>
+				<dt>类别</dt>
+				<dd class="facet"></dd>
+				
+				<dt>价格</dt>
+				<dd class="facet"></dd>
+			</dl>
+		</div>
+		
+		<div id="ProductList">
+			
+				
+			
+		</div>
+		
+		
+		<footer></footer>
+		
+		<script type="text/html" id="listPro">
+		{{each ListP curr}}
+		<div class="Products">
+			<a href="/html/detail.html" class="photo">
+				<img src="{{curr.bigimg}}"/>
+			</a>
+			
+			<div class="ms">
+				<h5><a>{{curr.title}}</a></h5>
+				<p>{{curr.title2}}</p>
+				<p class="spec">规格：6号、8号、10号</p>
+			</div>
+			
+			<strong class="price">
+				￥{{curr.price}}
+				<span>/6号</span>
+			</strong>
+			<a href="/html/detail.html" class="btn_minxi">立即购买</a>
+		</div>
+		{{/each}}
+		</script>
+		
 	</body>
 </html>

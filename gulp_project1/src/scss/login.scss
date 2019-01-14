@@ -20,6 +20,7 @@ a{
         position: relative;
         margin: 0 auto;
         width: 455px;
+        height: 490px;
     }
 }
 
@@ -37,12 +38,12 @@ a{
 }
 
 .login_h .switch a:hover{
-    color:black;
+    color:red;
 }
 
 .login_h .switch .dl{
     color: #999;
-    margin-left: 110px;
+    margin-left: 70px;
     height: 45px;
     line-height: 45px;
 }
@@ -52,7 +53,7 @@ a{
 
     height: 45px;
     line-height: 45px;;
-    margin-left: 16.66666667%;
+    margin-left: 44.66666667%;
 }
 
 
@@ -60,7 +61,9 @@ a{
     width: 372px;
     height: 304px;
     position: absolute;
-    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .form-group {
@@ -124,7 +127,6 @@ label {
 .re_form{
     width: 372px;
     height: 410px;
-    
     margin: 0 auto;
 }
 
@@ -175,4 +177,11 @@ label {
     
     border: 1px #fff solid;
     
+}
+
+.form {
+    display: none;
+}
+.ac {
+    display: block;
 }
